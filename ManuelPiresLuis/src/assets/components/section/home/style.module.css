@@ -1,0 +1,83 @@
+.section{
+    height: 100dvh;
+    top: 0;
+    position: sticky;
+    background: url(../../../images/main.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: #000000c2;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+    height: 100%;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-size: 50px;
+}
+
+.socialMedia i{
+   cursor: pointer;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button{
+   width: 140px;
+   height: 35px;
+   border-radius: 10px;
+   background: none;
+   font-size: 12px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.buttons .button1{
+    border: 1px solid white;
+}
+
+.buttons .button2{
+    background: #caaf12;
+}
+
+.presentation{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 10px;
+}
+.presentation .name{
+    font-size: 28px;
+    font-weight: bold;
+    color: #caaf12;
+}
+
+.presentation p{
+    align-items: center;
+    font-size:20px;
+    display: flex;
+    width: 500px;
+    color: white;
+}

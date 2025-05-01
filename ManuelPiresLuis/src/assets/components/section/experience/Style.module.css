@@ -1,0 +1,40 @@
+.section {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    position: sticky;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: color;
+    background-color: white;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+}
+
+.experience {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    text-align: center;
+    width: 650px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px #0000001a;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .left:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  }
+  
