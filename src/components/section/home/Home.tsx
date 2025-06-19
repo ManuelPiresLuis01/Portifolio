@@ -4,7 +4,7 @@ import { FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { ImGithub } from "react-icons/im";
-import { links } from "../../../assets/mock/links";
+import { Links } from "../../../assets/mock/links";
 
 export default function Home() {
   const text: string = "< Ola sou o Manuel Pires Luis  />";
@@ -14,18 +14,18 @@ export default function Home() {
         <div className={Style.home}>
           <div className={Style.right}>
             <div className={Style.socialMedia}>
-              <a href={links.facebook} target="_blank" rel="noopener noreferrer"><i><FaFacebook /></i></a>
-              <a href={links.instagram} target="_blank" rel="noopener noreferrer"><i><AiFillInstagram /></i></a>
-              <a href={links.linkedin} target="_blank" rel="noopener noreferrer"><i><TbBrandLinkedinFilled /></i></a>
-              <a href={links.github} target="_blank" rel="noopener noreferrer"> <i><ImGithub /></i></a>
-              <a href={links.whatsapp} target="_blank" rel="noopener noreferrer"> <i><FaWhatsapp /></i></a>
+              <a href={Links.facebook} target="_blank" rel="noopener noreferrer"><i><FaFacebook /></i></a>
+              <a href={Links.instagram} target="_blank" rel="noopener noreferrer"><i><AiFillInstagram /></i></a>
+              <a href={Links.linkedin} target="_blank" rel="noopener noreferrer"><i><TbBrandLinkedinFilled /></i></a>
+              <a href={Links.github} target="_blank" rel="noopener noreferrer"> <i><ImGithub /></i></a>
+              <a href={Links.whatsapp} target="_blank" rel="noopener noreferrer"> <i><FaWhatsapp /></i></a>
               
               
             
             </div>
             <div className={Style.buttons}>
-              <a href={links.projects} target="_blank" rel="noopener noreferrer"> <button className={Style.button1}>Ver Projectos</button></a>
-              <a href={links.resume} target="_blank" rel="noopener noreferrer"><button className={Style.button2}>Ver CV</button></a>
+              <a href={Links.projects} target="_blank" rel="noopener noreferrer"> <button className={Style.button1}>Ver Projectos</button></a>
+              <a href={Links.resume} target="_blank" rel="noopener noreferrer"><button className={Style.button2}>Ver CV</button></a>
             </div>
           </div>
           <div className={Style.presentation}>

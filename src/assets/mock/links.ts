@@ -1,4 +1,4 @@
-export const links = {
+export const Links = {
     facebook: "https://www.facebook.com/manuel.pires.luis.pires.2025/",
     instagram:"https://www.instagram.com/manuelpiresluis/#",
     whatsapp:"https://wa.me/message/JISLF55NZR2PN1",
