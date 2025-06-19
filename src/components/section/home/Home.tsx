@@ -19,9 +19,6 @@ export default function Home() {
               <a href={Links.linkedin} target="_blank" rel="noopener noreferrer"><i><TbBrandLinkedinFilled /></i></a>
               <a href={Links.github} target="_blank" rel="noopener noreferrer"> <i><ImGithub /></i></a>
               <a href={Links.whatsapp} target="_blank" rel="noopener noreferrer"> <i><FaWhatsapp /></i></a>
-              
-              
-            
             </div>
             <div className={Style.buttons}>
               <a href={Links.projects} target="_blank" rel="noopener noreferrer"> <button className={Style.button1}>Ver Projectos</button></a>
@@ -51,6 +48,7 @@ function TypingEffect() {
         "Sou Professor ",
         "Seja bem-vindo a minha page!_",
       ]}
+      loop={true}
       multiTextDelay={2000}
       typeSpeed={80}
     />
