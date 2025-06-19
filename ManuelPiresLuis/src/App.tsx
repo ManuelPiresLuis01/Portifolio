@@ -1,11 +1,9 @@
-import Home from "./assets/components/section/home/Home"
-import Experience from "./assets/components/section/experience/Experience"
+import Home from "./components/section/home/Home"
 
 function App() {
   return (
     <>
       <Home />
-      <Experience  />
     </>
   )
 }
