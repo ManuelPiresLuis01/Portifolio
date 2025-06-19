@@ -87,7 +87,7 @@ a {
   color: white;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1200px) {
   .home {
     flex-direction: column-reverse;
     gap: 30px;
