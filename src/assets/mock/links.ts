@@ -4,6 +4,6 @@ export const Links = {
     whatsapp:"https://wa.me/message/JISLF55NZR2PN1",
     linkedin:"https://linkedin.com/in/manuel-pires-l-5275852aa",
     github:"https://github.com/ManuelPiresLuis01",
-    resume:"https://drive.google.com/file/d/1jwcntEMRV3rkHksvHhL43SMJWZBQjgPU/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/12Dx_SttlvBFA8Sm2HRFz7cZ-EDdtmW-8/view?usp=drive_link",
     projects:"https://drive.google.com/file/d/1JIOSvg6Ar9d28n4U64Sllgd4ejTY2c3l/view?usp=sharing"
 }
