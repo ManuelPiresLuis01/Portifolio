@@ -33,7 +33,7 @@ export default function Contact() {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Manuel Pires Luis',
-      href: 'https://linkedin.com/in/manuel-pires-luis'
+      href: 'www.linkedin.com/in/manuel-pires-l-5275852aa'
     }
   ]
 
