@@ -21,7 +21,7 @@ export default function Contact() {
       icon: Phone,
       label: t('phone'),
       value: '+244 929 004 469',
-      href: 'tel:+244929004469'
+      href: 'https://wa.me/message/JISLF55NZR2PN1'
     },
     {
       icon: Github,
@@ -33,7 +33,7 @@ export default function Contact() {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Manuel Pires Luis',
-      href: 'https://linkedin.com/in/manuel-pires-luis'
+      href: 'www.linkedin.com/in/manuel-pires-l-5275852aa'
     }
   ]
 
