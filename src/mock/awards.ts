@@ -1,18 +1,17 @@
-export 
-  const awards = [
-    {
-      titleKey: "Academic Impact Award",
-      organizationKey: "universida de Luanda",
-      descriptionKey: "academic Impact Description",
-    },
-    {
-      titleKey: "Programming Championship",
-      organizationKey: "AOCPC Organization",
-      descriptionKey: "programming Championship Description",
-    },
-    {
-      titleKey: "Second place in break dance Championship",
-      organizationKey: "PUP-Angola",
-      descriptionKey: "I Dance a lot to be the winner, but I deserve second place",
-    },
-  ];
+export const awards = [
+  {
+    titleKey: "Academic Impact Award",
+    organizationKey: "Universidade de Luanda",
+    descriptionKey: "Recognition for academic impact and excellence",
+  },
+  {
+    titleKey: "Programming Championship",
+    organizationKey: "AOCPC Organization",
+    descriptionKey: "14th place in the Programming Championship",
+  },
+  {
+    titleKey: "Programming Hackathon",
+    organizationKey: "Sirius Hackathon",
+    descriptionKey: "1st place in the Hackathon",
+  },
+];
