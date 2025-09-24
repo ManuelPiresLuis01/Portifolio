@@ -34,7 +34,7 @@ export const dictionary = {
     communication: 'Comunicação',
     continuousLearning: 'Aprendizagem Contínua',
     
-    projectsTitle: 'Projetos',
+    projectsTitle: 'Projetos Pessoais',
     viewProject: 'Ver Projeto',
     
     certificationsTitle: 'Certificações',
@@ -113,7 +113,7 @@ export const dictionary = {
     continuousLearning: 'Continuous Learning',
     
     
-    projectsTitle: 'Projects',
+    projectsTitle: 'Personal Projects',
     viewProject: 'View Project',
     
     

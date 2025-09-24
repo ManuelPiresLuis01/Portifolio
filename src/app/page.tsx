@@ -33,7 +33,6 @@ export default function Home() {
   return (
     <LanguageProvider>
       <div className="min-h-screen bg-black text-white font-roboto relative">
-        
         <motion.div
           className="fixed pointer-events-none z-50 rounded-full"
           animate={{ x: coords.x - 75, y: coords.y - 75 }}
