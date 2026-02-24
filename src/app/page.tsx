@@ -1,62 +1,32 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
-import Header from '@/src/components/header'
-import Hero from '@/src/components/hero'
-import About from '@/src/components/about'
-import Skills from '@/src/components/skills'
-import Projects from '@/src/components/projects'
-import Certifications from '@/src/components/certifications'
-import Experience from '@/src/components/experience'
-import Awards from '@/src/components/awards'
-import Contact from '@/src/components/contact'
-import { LanguageProvider } from '@/src/contexts/language-context'
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
-  const [coords, setCoords] = useState({ x: 0, y: 0 })
 
   useEffect(() => {
+    // mark component as mounted (previous logic)
     setMounted(true)
 
-    const handleMouseMove = (e: MouseEvent) => {
-      setCoords({ x: e.clientX, y: e.clientY })
-    }
+    // show loading screen briefly then redirect
+    const timer = setTimeout(() => {
+      window.location.href = 'https://manuelpiresluis.vercel.app/'
+    }, 1500) // adjust delay if desired
 
-    window.addEventListener('mousemove', handleMouseMove)
-    return () => window.removeEventListener('mousemove', handleMouseMove)
+    return () => clearTimeout(timer)
   }, [])
 
-  if (!mounted) return null
-
-  return (
-    <LanguageProvider>
-      <div className="min-h-screen bg-black text-white font-roboto relative">
-        <motion.div
-          className="fixed pointer-events-none z-50 rounded-full"
-          animate={{ x: coords.x - 75, y: coords.y - 75 }}
-          transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-          style={{
-            width: 100,
-            height: 100,
-            background:
-              'radial-gradient(circle, #ffffff66, transparent 70%)',
-          }}
-        />
-
-        <Header />
-        <main>
-          <Hero />
-          <About />
-          <Skills />
-          <Projects />
-          <Certifications />
-          <Experience />
-          <Awards />
-          <Contact />
-        </main>
+  // while waiting for the redirect just render a full‑screen loader
+  if (!mounted) {
+    return (
+      <div className="flex items-center justify-center h-screen bg-black text-white">
+        {/* simple spinning circle using Tailwind animate-spin */}
+        <div className="w-12 h-12 border-4 border-white border-t-transparent rounded-full animate-spin" />
       </div>
-    </LanguageProvider>
-  )
+    )
+  }
+
+  // fallback content (very unlikely to be seen)
+  return null
 }
